@@ -1,8 +1,25 @@
 aid: syscap
 name: Syscap
-description: Syscap is a company surfaced as a portfolio company of 500-global and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Syscap is a Monterrey-based Mexican financial technology company that provides a private-credit
+  and funding-management platform for non-bank financial intermediaries (SOFOMs and financieras). Its
+  software helps loan originators manage funding lines, organize documentation, automate tax compliance,
+  generate amortization tables and electronic signatures, and give funders a 24/7 transparency portal
+  with balance reports and transaction tracking. More than 140 financial institutions across Mexico use
+  Syscap to manage private debt. The company operates a web application and a mobile app; it does not
+  publish a public API, developer portal, or API documentation.
 url: https://raw.githubusercontent.com/api-evangelist/syscap/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://syscap.com.mx/_nuxt/img/logo.69fd70d.webp
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -11,9 +28,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Financial Services
+- Fintech
+- Private Credit
+- Lending
+- Mexico
+- SaaS
+- Funding Management
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +47,16 @@ maintainers:
 common:
 - type: Website
   url: https://syscap.com.mx
+- type: Login
+  url: https://web.syscap.com.mx/login
+- type: Support
+  url: https://syscap.com.mx/contact
+- type: PrivacyPolicy
+  url: https://syscap.com.mx/aviso_de_privacidad_soluciones_hexagono.pdf
+- type: DomainSecurity
+  url: security/syscap-domain-security.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
